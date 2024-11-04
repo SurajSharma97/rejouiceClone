@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'nb';
+    src: url('./NBinternational.ttf');
+
+}
+:root{
+    --NBFont: 'NBInternationalProBook';
+    --Rejoice: 'Rejouice Headline';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.cursor{
+    background-color:#ff5f38;
+    height: 7.5vw;
+    width: 7.5vw;
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:var(--Rejoice);
+    font-size: 1.2vmax;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    font-weight: 100;
+
+    text-transform: capitalize;
+    border-radius: 50%;
+
+}
+.page1-content{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    flex-direction: column;
+}
+.page1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: nb;
+}
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+.page1-content h1{
+    font-family: var(--Rejoice);
+    font-size:27vw;
+    text-transform:lowercase;
+    font-weight: 100;
+    line-height: 30vw;
+}
+.page1-content h1 span{
+    font-family: var(--Rejoice);
+    display: inline-block;
+}
+.page2{
+    width: 100%;
+    min-height: 70vh;
+    padding: 4vw 2.5vw;
+    background-color: rgb(250, 248, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page2nav{
+    font-family: "nb", sans-serif;
+    font-weight: 100;
+    /* font-size: 16px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page2nav h2{
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: "NB International Pro Book", sans-serif;
+    color: #0E0E0E;
+}
+.page2nav h2 span{
+    font-size: 1.5vw;
+    color: #0e0e0e98;
+}
+
+.first{
+    width: 100%;
+    height: 50%;
+
+}
+.first hr{
+    margin-top: 1vw;
+}
+
+
+.first .desc{
+    padding:2px;
+    font-size: 4.2vw;
+    word-spacing: 5px;
+    font-family: "NB International Pro Book", sans-serif;
+}
+
+.page3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   /* margin-bottom: 3.5vw; */
+
+}
+.top{
+width: 100%;
+height: 40%;
+margin-top: 15vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.top p{
+    font-size: 1.2vw;
+    font-family: "NB International Pro Book", sans-serif;
+}
+
+.top p span{
+    background-color: #0E0E0E;
+    color:#fff;
+    font-size: 0.8vw;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+
+}
+.page3 p .arrow{
+ font-size: 1.2vw;
+ font-weight: 100;
+    background: none;
+    color: #0E0E0E;
+}
+.page3 h1 a{
+  font-size: 4.2vw;
+  color:#0E0E0E;
+z-index: 9;
+  word-spacing: 2px;
+  text-decoration: none;
+  font-family:  "NB International Pro Book", sans-serif;
+  font-weight: 100;
+}
+
+.top hr{
+    width: 100%;
+    z-index: 8;
+    height: 5px;
+    background-color: #0E0E0E;
+    margin-top: -11px;
+    /* transition: all 0.3s;   */
+}
+
+.page3-elem{
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.page3-elem .box{
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+.page3-elem .box:hover img{
+    opacity: 0;
+}
+.page3-elem .box video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page3-elem .box img{
+    transition: all ease 0.3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+object-fit: cover;
+}
+.page3 .firstsec{
+width: 100%;
+height: 100px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.firstsec h3{
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: "NB International Pro Book", sans-serif;
+    color: #0E0E0E;
+}
+.page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.page4 video{
+    height: 100%;
+}
+.page4 svg{
+    position: absolute;
+    height: 55%;
+}
+.page5{
+    width: 100%;
+    height: 100vh;
+
+}
+.page5 h1{
+    font-size: 9vw;
+    font-family: var(--Rejoice);
+    width: 96%;
+    margin-left: 2%;
+    border-bottom: #0E0E0E 1px solid;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: 100;
+}
+.page5 h1:after{
+    content: "↳Contact";
+    font-size: 28px;
+    font-weight: 400;
+    font-family:  "NB International Pro Book", sans-serif;
+position: absolute;
+letter-spacing: 1px;
+right: 0;
+bottom: 0;
+
+}
+.page5 .swiperdiv{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-top: -5%;
+
+}
+.swiper {
+    width: 110%;
+    height: 100%;
+  }
+
+  .swiper-wrapper .swiper-slide {
+    text-align: center;
+    width: 400px;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;}
+    .loader{
+        width: 100%;
+        height: 100vh;
+        background-color: #0E0E0E;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        color: #fff;
+        gap: 10px;
+    }
+    .loader h3{
+        font-size: 2vw;
+        font-weight: 300;
+        font-family:  "NB International Pro Book", sans-serif;
+    }
